@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root {
+    --txt-font: 'Montserrat', sans-serif;
+    --txt-color: #152a45;
+    --vini-groen: #72afa6;
+    --vini-groenDonker: #649c93;
+    --vini-geel: #f4eb34;
+    --border-radius: 4px;
+    --form-error: #cc3333;
+    --form-success: #4bb544;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    background: url('../assets/bg.png');
+    background-position: top left;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 400px;
+    max-width: 400px;
+    margin: 1rem;
+    padding: 2rem;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+    border-radius: var(--border-radius);
+    background: #fff;
+}
+
+.container,
+.form__input,
+.form__button {
+    font: 500 1rem 'Montserrat', sans-serif;
+}
+
+.form--hidden{
+    display: none;
+}
+
+.form>*:first-child {
+    margin-top: 0;
+}
+
+.form>*:last-child {
+    margin-bottom: 0;
+}
+
+.form__title{
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.form__message{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.form__message--success{
+    color: var(--form-success);
+}
+
+.form__message--error{
+    color: var(--form-error);
+}
+
+.form__input-group{
+    margin-bottom: 1rem;
+}
+
+.form__input{
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    box-sizing: border-box;
+    border-radius: var(--border-radius);
+    border: 1px solid #ddd;
+    outline: none;
+    background: #eee;
+    transition: background 0.2s, border-color 0.2s;
+}
+
+.form__input:focus{
+    border-color: var(--vini-groen);
+    background: #fff;
+}
+
+.form__input--error{
+    color: var(--form-error);
+    border-color: var(--form-error);
+}
+
+.form__input-error-message{
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+    color: var(--form-error);
+}
+
+.form__button{
+    width: 100%;
+    padding: 1rem 2rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #fff;
+    border: none;
+    border-radius: var(--border-radius);
+    outline: none;
+    cursor: pointer;
+    background: var(--vini-groen);
+}
+
+.form__button:hover{
+    background-color: var(--vini-groenDonker);
+}
+
+.form__button:active{
+    transform: scale(.98);
+}
+
+.form__text{
+    text-align: center;
+}
+
+.form__link{
+    color: var(--txt-color);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.form__link:hover{
+    text-decoration: underline;
+}

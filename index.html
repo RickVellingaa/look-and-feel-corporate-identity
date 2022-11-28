@@ -1,67 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vini Mini</title>
-    <link rel="stylesheet" href="./styles/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
-    <link href="https://cdn.staticaly.com/gh/hung1001/font-awesome-pro-v6/44659d9/css/all.min.css" rel="stylesheet" type="text/css"/>
+    <meta charset="utf-8">
+    <title>Login / Sign Up Form</title>
+    <link rel="shortcut icon" href="/assets/favicon.ico">
+    <link rel="stylesheet" href="./styles/sign-up.css">
 </head>
 <body>
-    <nav class="navigation-bar">
-        <div class="navigation-menu">
-            <div class="navigation-logo">
-                <a href="index.html"><img src="./assets/vini-mini-logo.avif" alt="Vini Mini logo"></a>
+    <div class="container">
+        <form action="home.html" class="form" id="login">
+            <h1 class="form__title">Login</h1>
+            <div class="form__message form__message--error"></div>
+            <div class="form__input-group">
+                <input type="text" class="form__input form__input-name" autofocus placeholder="Gebruikersnaam">
+                <div class="form__input-error-message"></div>
             </div>
-            <div class="navigation-items">
-                <ul><li><a href="#">Voor Mini</a></li></ul>
-                <ul><li><a href="#">Vini Mini producten</a></li></ul>
-                <ul><li><a href="#">Over ons</a></li></ul>
-                <ul><li><a href="#">Nieuws</a></li></ul>
-                <ul><li><a href="#">Contact</a></li></ul>
-                <ul><li><a href="#">Zoeken</a></li></ul>
-                <ul><li><a href="#"><i class="fa-light fa-cart-shopping"></i></a></li></ul>
-                <ul><li><a href="#"><i class="fa-light fa-user"></i></a></li></ul>
-                <ul><li><a href="#"><i class="fa-light fa-bars"></i></a></li></ul>
+            <div class="form__input-group">
+                <input type="password" class="form__input form__input-wachtwoord" autofocus placeholder="Password">
+                <div class="form__input-error-message"></div>
             </div>
-        </div>
-    </nav>
-    <p class="txt-more">Advies van de dag<i class="fa-light fa-calendar-days"></i></p>
-    <div class="steps-advice">
-        <section class="steps-advice1"><span>1</span><p>Voed de pinda aan uw kind</p></section>
-        <section><span>2</span><p>Voed de pinda aan uw kind</p></section>
-        <section><span>3</span><p>Voed de pinda aan uw kind</p></section>
-        <section><span>4</span><p>Voed de pinda aan uw kind</p></section>
-        <section><span>5</span><p>Voed de pinda aan uw kind</p></section>
-        <section><span>6</span><p>Voed de pinda aan uw kind</p></section>
+            <button class="form__button" type="submit">Verder</button>
+            <p class="form__text">
+                <a href="#" class="form__link">Forgot your password?</a>
+            </p>
+            <p class="form__text">
+                <a class="form__link" href="./" id="linkCreateAccount">Don't have an account? Create account</a>
+            </p>
+        </form>
+        <form class="form form--hidden" id="createAccount">
+            <h1 class="form__title">Create Account</h1>
+            <div class="form__message form__message--error"></div>
+            <div class="form__input-group">
+                <input type="text" id="signupUsername" class="form__input" autofocus placeholder="Username">
+                <div class="form__input-error-message"></div>
+            </div>
+            <div class="form__input-group">
+                <input type="text" class="form__input" autofocus placeholder="Email Address">
+                <div class="form__input-error-message"></div>
+            </div>
+            <div class="form__input-group">
+                <input type="password" class="form__input" autofocus placeholder="Password">
+                <div class="form__input-error-message"></div>
+            </div>
+            <div class="form__input-group">
+                <input type="password" class="form__input" autofocus placeholder="Confirm password">
+                <div class="form__input-error-message"></div>
+            </div>
+            <button class="form__button" type="submit">Continue</button>
+            <p class="form__text">
+                <a class="form__link" href="./" id="linkLogin">Already have an account? Sign in</a>
+            </p>
+        </form>
     </div>
-    <p class="txt-more">Meer van Vini Mini</p>
-    <div class="box-advice">
-        <a href="#"><section class="box-section">Agenda</section></a>
-        <a href="test.html"><section class="box-section">Test</section></a>
-        <a href="#"><section class="box-section">Dagboek</section></a>
-        <a href="#"><section class="box-section">Feitjes</section></a>
-        <a href="#"><section class="box-section">Overige informatie</section></a>
-    </div>
-    
-  <div id="modalbox" class="modal-box">
-    <div class="modal-content">
-        <i class="fa-light fa-xmark"></i>
-          <div>
-            <section>
-              <h2>Voed de pinda aan uw kind</h2>
-              <p>Hier komt tekst...</p>
-            </section>
-            <section>
-              <img src="./assets/vinimini-pinda.webp" alt="">
-            </section>
-          </div>
-    </div>
-  </div>
-
+    <script src="./scripts/sign-up.js"></script>
 </body>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
-<script src="./scripts/script.js"></script>
-</html>
