@@ -6,7 +6,7 @@
     --vini-groen: #72afa6;
     --vini-groenDonker: #649c93;
     --vini-geel: #f4eb34;
-    --border-radius: 4px;
+    --border-radius: 10px;
     --form-error: #cc3333;
     --form-success: #4bb544;
 }
@@ -15,6 +15,7 @@ body {
     margin: 0;
     height: 100vh;
     display: flex;
+    color: var(--txt-color);
     align-items: center;
     justify-content: center;
     font-size: 18px;
@@ -29,9 +30,10 @@ body {
     max-width: 400px;
     margin: 1rem;
     padding: 2rem;
+    border: 5px solid var(--vini-groen);
     box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
     border-radius: var(--border-radius);
-    background: #fff;
+    background: rgb(114, 175, 166, .4);
 }
 
 .container,
@@ -108,6 +110,7 @@ body {
     font-weight: bold;
     font-size: 1.1rem;
     color: #fff;
+    transition: .5s;
     border: none;
     border-radius: var(--border-radius);
     outline: none;
@@ -116,6 +119,7 @@ body {
 }
 
 .form__button:hover{
+    transition: .5s;
     background-color: var(--vini-groenDonker);
 }
 

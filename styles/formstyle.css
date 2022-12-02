@@ -4,6 +4,7 @@
     --txt-font: 'Montserrat', sans-serif;
     --txt-color: #152a45;
     --vini-groen: #72afa6;
+    --vini-groenDonker: #649c93;
     --vini-geel: #f4eb34;
 }
 
@@ -99,14 +100,21 @@ form input {
 
 
 form button {
-    width: 110px;
-    height: 35px;
-    background: rgb(114, 175, 166, .4);
-    color: black;
-    border: 3px solid var(--vini-groen);
+    width: 150px;
+    height: 45px;
+    background: var(--vini-groen);
+    color: #fff;
+    border: none;
     border-radius: 10px;
     cursor: pointer;
+    font-size: .9em;
     font-family: var(--txt-font);
+    transition: .5s;
+}
+
+form button:hover{
+    transition: .5s;
+    background-color: var(--vini-groenDonker);
 }
 
 .btn-box {
