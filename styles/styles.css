@@ -111,6 +111,14 @@ body {
     padding-left: 30px !important;
 }
 
+.fa-light:visited{
+    color: var(--txt-color);
+}
+
+.fa-light{
+    color: var(--txt-color);
+}
+
 
 .steps-advice {
     padding: 2rem;
