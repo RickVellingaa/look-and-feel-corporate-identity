@@ -18,6 +18,7 @@ function clearInputError(inputElement) {
 
 document.addEventListener("DOMContentLoaded", () => {
     const loginForm = document.querySelector("#login");
+    const createForm = document.querySelector("#createAccount");
     const createAccountForm = document.querySelector("#createAccount");
 
     document.querySelector("#linkCreateAccount").addEventListener("click", e => {
@@ -31,7 +32,6 @@ document.addEventListener("DOMContentLoaded", () => {
         loginForm.classList.remove("form--hidden");
         createAccountForm.classList.add("form--hidden");
     });
-
 
     loginForm.addEventListener("submit", e => {
         var userName = document.querySelector(".form__input-name").value;
