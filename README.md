@@ -12,7 +12,7 @@ Link website: https://rickvellingaa.github.io/all-human-accessible-website/
 
 Voor Vini Mini heb ik de user story: "Als ouder wil ik bij het openen van Mijn Vini Mini persoonlijk advies behorende bij de betreffende dag kunnen lezen, zodat de kans op een allergische reactie bij mijn kind kleiner wordt." gekozen om te gaan maken. De website is te zien zodra de gebruiker inlogt op zijn/of haar persoonlijk Vini Mini account. Op de pagina kun je verschillende adviesen zien die zijn aangeraden voor die dag. 
 
-Voor Vini Mini heb ik tijdens deze leertaak een test formulier gemaakt, zodat ouders kunnen testen/bekijken wat het best advies is/het best is om te doen met de omstandigheden. Het test formulier geeft resulaten op basis van de antwoorden van de gebruiker, dus je kan bijvoorbeeld een 6 of 3 stap process worden aangeraden of een overleg met je arts.
+Voor Vini Mini heb ik tijdens deze leertaak een inlog en registratie formulier gemaakt, zodat het duidelijker wordt dat de pagina's die ik in eerdere sprints heb gemaakt echt persoonlijk zijn en alleen voor gebruikers te zien zijn die zijn ingelogd. Het formulier gaat alleen door naar de home pagin als je een bepaalde inlog combinatie invuld.
 
 Link website: https://rickvellingaa.github.io/all-human-accessible-website/
 
@@ -23,7 +23,7 @@ Link website: https://rickvellingaa.github.io/all-human-accessible-website/
 
 ## Kenmerken
 
-Bij het maken van het testformulier heb ik vooral heel veel gebruik gemaakt van JS. Ik heb in JS door middel van VAR en Functions een testformulier gemaakt die multi-step is door elke keer als de klant een bepaald antwoord geeft je op basis daar van wordt doorgestuurd naar een andere vraag of pagina, dit heb ik gedaan door veel verschillende if statements te gebruiken en bijvoorbeeld dus if .....is.(:checked) dan redirect naar .... Voor de rest heb ik de opzet van het testformulier gemaakt met HTML en CSS, met HTML had ik de website ingedeeld en met CSS stijl gegeven.
+Bij het maken van het inlogformulier heb ik vooral heel veel gebruik gemaakt van JS. Ik heb in JS door middel van querySelectors en functions een inlogformulier gemaakt die gebruikers naar hun desbetreffende home pagina stuurt. Voor nu heb ik alles gemaakt door gebruik te maken van eventListeners en classLists, hierdoor kan ik op bepaalde acties zoals click of submit bepaalde classes toevoegen waardoor ik bijvoorbeeld een ander formulier kan tonen of een melding kan laten zien als er een gebruikersnaam fout is. 
 
 * HTML
 * CSS
