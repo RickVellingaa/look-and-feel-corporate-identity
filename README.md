@@ -1,6 +1,6 @@
 # All Human - Vini Mini
 
-Link website: https://rickvellingaa.github.io/all-human-accessible-website/
+Link website: https://rickvellingaa.github.io/look-and-feel-corporate-identity/
 
 ## Inhoudsopgave
 
@@ -14,12 +14,12 @@ Voor Vini Mini heb ik de user story: "Als ouder wil ik bij het openen van Mijn V
 
 Voor Vini Mini heb ik tijdens deze leertaak een inlog en registratie formulier gemaakt, zodat het duidelijker wordt dat de pagina's die ik in eerdere sprints heb gemaakt echt persoonlijk zijn en alleen voor gebruikers te zien zijn die zijn ingelogd. Het formulier gaat alleen door naar de home pagin als je een bepaalde inlog combinatie invuld.
 
-Link website: https://rickvellingaa.github.io/all-human-accessible-website/
+Link website: https://rickvellingaa.github.io/look-and-feel-corporate-identity/
 
 ### Foto's opzet website
 
-![image](https://user-images.githubusercontent.com/112856287/199609347-88ab97dc-e3fb-46d2-9304-308e502dc277.png)
-![image](https://user-images.githubusercontent.com/112856287/199609377-9ddda80d-fbba-4869-bfe2-5a0c236d3471.png)
+![image](https://user-images.githubusercontent.com/112856287/205251053-0a7c8cc1-5f0f-4688-a498-5eadf9d37bc3.png)
+![image](https://user-images.githubusercontent.com/112856287/205251078-a97117b1-ee35-44cf-9849-fadb0040e8bc.png)
 
 ## Kenmerken
 
