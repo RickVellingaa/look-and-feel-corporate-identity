@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root {
+    --txt-font: 'Montserrat', sans-serif;
+    --txt-color: #152a45;
+    --vini-groen: #72afa6;
+    --vini-groenDonker: #649c93;
+    --vini-geel: #f4eb34;
+    --border-radius: 10px;
+    --form-error: #cc3333;
+    --form-success: #4bb544;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: var(--txt-font);
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+.hero{
+    width: 100%;
+    height: 100%;
+}
+
+#demoEvoCalendar{
+    width: 80%;
+    height: auto;
+}
+
+.calendar-sidebar{
+    background-color: var(--vini-groen);
+}
+
+.calendar-sidebar > .month-list > .calendar-months > li.active-month {
+    background-color: var(--vini-groenDonker);
+}
+
+.calendar-sidebar > .month-list > .calendar-months > li:hover {
+    background-color: var(--vini-groenDonker);
+}
+
+.calendar-sidebar > span#sidebarToggler {
+    background-color: var(--vini-groen) !important;
+}
+
+.event-list > .event-empty > p {
+    margin: 0px;
+    color: var(--txt-color);
+}
+
+.event-list > .event-empty {
+    padding: 15px 10px;
+    background-color: rgb(114, 175, 166, .4);
+    border: 1px solid var(--vini-groen);
+}
+
+#eventListToggler {
+    background-color: var(--vini-groen);
+    box-shadow: rgb(135 115 193) 5px 0px 18px -3px;
+}
+
+th[colspan="7"] {
+    color: var(--txt-color);
+}
